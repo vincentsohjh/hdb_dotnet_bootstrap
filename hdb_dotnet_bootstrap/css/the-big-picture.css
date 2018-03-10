@@ -13,7 +13,7 @@ body {
 
 h1, h2{
   font-weight: lighter;
-  color:#fff;
+  color:#000305;
 }
 .padding-top50{
  padding-top: 50px;
@@ -21,13 +21,18 @@ h1, h2{
 
 .full
 {
-    background: url('../img/polygon.png') no-repeat;
-    background: #0089ca;
+    background: rgba(136, 198, 252,1);
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.65) 0%,rgba(255,255,255,0.65) 100%), url('../img/point5.2-01.png');
     color: #fff;
-    background-image: url('../img/inspiration-geometry.png');
     background-repeat: repeat;
 }
- .btn-border{
+
+.full img{
+    url:'../img/point5.2-01.png';
+}
+
+
+.btn-border{
 	border:1px solid #A3CEE4;
         background-color: transparent;
 	color: #A3CEE4;
@@ -54,7 +59,7 @@ border:1px solid #fff;
     border-style: none;
     font-size: 14px;
     border-radius: 0px;
-    background: rgba(27,100,168,1);
+    background: #A3CEE4;
 background: -moz-linear-gradient(left, rgba(27,100,168,1) 0%, rgba(0,0,0,1) 100%);
 background: -webkit-gradient(left top, right top, color-stop(0%, rgba(27,100,168,1)), color-stop(100%, rgba(0,0,0,1)));
 background: -webkit-linear-gradient(left, rgba(27,100,168,1) 0%, rgba(0,0,0,1) 100%);
@@ -120,21 +125,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
 img
 {
-      background: #333;
+    background: #333;
 	background: rgba(51, 51, 51, 0.1);
 }
 
-.registrationform
-{
+.registrationform {
     padding: 30px;
-    color: #FFF !important;
+    color: #7b7c7c !important;
     margin: 0px;
 }
 .registrationform h1
 {
     margin-bottom: 50px;
     font-size: 40px;
-    color: #FFFFFF;
+    color: #000;
 }
 .registrationform a
 {
@@ -178,15 +182,14 @@ input[type="text"]:focus,
 textarea:focus, 
 textarea.form-control:focus {
 	outline: 0;
-	
-     box-shadow:none;
+    box-shadow:none;
     -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
 }
 
 .form-control:-moz-placeholder
 {
     color: #004F75;
-    background-color: transparent;
+    background-color: rgba(12, 140, 252,0.5);
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -199,7 +202,7 @@ textarea.form-control:focus {
   line-height: 1;
   color: #FFF;
   text-align: center;
-   background-color: transparent; 
+  background-color: rgba(12, 140, 252,0.5); 
   border: 1px solid #FFF;
   border-radius: 4px;
 }
@@ -210,14 +213,13 @@ textarea.form-control:focus {
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #555;
-  background-color: transparent;
-  background-image: none;
-  border: 1px solid #fff;
+  color: #1f2021;
+  background-color: #d4f5f7;
+  border: 1px solid #7b7c7c;
   border-radius: 4px;  
 }
 .form-control:focus {
-  border-color: #fff; 
+  border-color: #686a6b; 
   outline: 0;
   
   box-shadow:none;-moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
@@ -225,7 +227,7 @@ textarea.form-control:focus {
    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);*/
 }
 .container form {
-  background-color: transparent;
+  background-color: #d4f5f7;
   color: #888888;
   text-align: left;
   padding: 20px;
@@ -240,10 +242,10 @@ textarea.form-control:focus {
 {
     /* to create space for placing icon*/
     padding-left: 36px;
-    border-color: 1px solid #fff;
-    background-color: transpatent;
+    border-color: 1px solid rgba(0,0,0,1);
+    background-color: rgba(191, 251, 255,0.6);
     border-radius: 5px;
-    color: #FFFFFF;
+    color: #1b1c1c;
 }
 
 .container .registrationform .btn-default
@@ -275,7 +277,7 @@ textarea.form-control:focus {
     margin-left: 12px;
     margin-top: -28px;
     z-index: 2;
-    color: #FFFFFF;
+    color: #7b7c7c;
 }
 
 .container .icon-textarea {
@@ -284,7 +286,7 @@ textarea.form-control:focus {
   margin-top: -104px;
   position: relative;
   z-index: 2;
-  color: #fff;
+  color: #7b7c7c;
 }
 /* modal-popup */
 .modal-footer

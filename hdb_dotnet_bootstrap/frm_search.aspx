@@ -11,9 +11,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="aspxtemplates">
-    <title>HDBSENSEMAKE - Your Concerns</title>
+    <title>SENSEMAKE - Your Concerns</title>
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/the-big-picture.css" rel="stylesheet">
     <link href="css/font-icon.css" rel="stylesheet" type="text/css" />
@@ -38,7 +38,7 @@
     <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">HDBSenseMake</a>
+                <a class="navbar-brand" href="#">SenseMake</a>
             </div>
         </div>
     </div>

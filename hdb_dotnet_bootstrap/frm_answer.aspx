@@ -2,16 +2,16 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html class="full" xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="description" content=""/>
     <meta name="author" content="Srikanth"/>
-    <title>HDBSENSEMAKE - Findings</title>
+    <title>SENSEMAKE - Feedback Findings</title>
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/bootstrap.css" rel="stylesheet"/>
     <!-- Custom CSS -->
     <link href="css/the-big-picture.css" rel="stylesheet"/>
     <link href="css/font-icon.css" rel="stylesheet" type="text/css" />
@@ -33,7 +33,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body id="hme">
+<body>
     <form id="form1" runat="server">
 
 
@@ -42,7 +42,7 @@
     <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">HDBSenseMake</a>
+                <a class="navbar-brand" href="#">SenseMake</a>
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder">
                     <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
                         class="icon-bar"></span><span class="icon-bar"></span>
@@ -63,7 +63,7 @@
 
 
     <!-- Section: answer -->
-    <section id="contact" class="home-section text-center">
+    <section id="contact" class="text-center">
         <h2>Here's our findings</h2>
     <div class="container">
     <div class="row">
@@ -74,7 +74,7 @@
                         <div class="form-group">
 
                             <section id="concerns"></section>
-                            <div class="text-left"><p class="lead"><b>Your residents' concerns are</b></p></div>
+                            <div class="text-left"><p class="lead"><b>Your residents' concern(s) is (are)</b></p></div>
                             
                             <asp:TextBox ID="txt_concerns" runat="server" class="form-control" Height="100px" TextMode="MultiLine" ReadOnly="true" ForeColor="Black"></asp:TextBox>
  
@@ -126,7 +126,7 @@
                             
                             <%--<a href="http://localhost:4848/extensions/MyMashup/MyMashup.html" target="_blank">Open Full View</a>--%>
                             
-                            <asp:LinkButton ID="link_qlik_full_view" runat="server" ForeColor="White">Open Full View</asp:LinkButton>
+                            <asp:LinkButton ID="link_qlik_full_view" runat="server" ForeColor="White" >Open Full View</asp:LinkButton>
                             </p>
                             </div>
                             

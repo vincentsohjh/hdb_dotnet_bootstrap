@@ -16,28 +16,28 @@ p {
     color: #4A4F53;
 }
 h1 {
-	font-size: 65px;
-	color: #2d3033;
+    font-size: 65px;
+    color: #000305;
 }
 h2 {
-	font-size: 40px;
-	color: #2d3033;
+    font-size: 40px;
+    color: #000305;
 }
 h3 {
-	font-size: 28px;
-	color: #2d3033;
-	font-weight: 300;
+    font-size: 28px;
+    color: #000305;
+    font-weight: 300;
 }
 h4 {
-	font-size: 22px;
-	color: #2d3033;
-	font-weight: 400;
+    font-size: 22px;
+    color: #000305;
+    font-weight: 400;
 }
 h5 {
-	font-size: 14px;
-	color: #2d3033;
-	text-transform: uppercase;
-	font-weight: 700;
+    font-size: 14px;
+    color: #000305;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 .spacer{padding:5em; padding-bottom:0; }
 .spacer1
@@ -130,7 +130,7 @@ body
     margin: 0px;
     font-family: "Source Sans Pro";
     font-weight: 400;
-    color: #6c7279;
+    color: #e3e8ed;
 }
 ul, ol {
 	margin: 0;
@@ -1090,7 +1090,7 @@ border-radius: 2px;
     display: block;
     position: relative;
     z-index: 120;
-    background: rgba(73,155,234,1);
+    background: rgba(12, 140, 252,0.1);
 background: -moz-radial-gradient(center, ellipse cover, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
 background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,124,229,1)));
 background: -webkit-radial-gradient(center, ellipse cover, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
@@ -1101,11 +1101,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
 }
 #contact h2,#contact p
 {
-    color: #FFFFFF;
+    color: #000;
 }
 .form-wrapper
 {
-    background: rgba(0,0,0,0.3);
+    background: rgba(12, 140, 252,0.5);
     padding: 40px;
     border-radius: 6px;
     color: #FFFFFF;
@@ -1162,7 +1162,9 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
     position: relative;
     height: 700px;
     overflow: hidden;
-    /*border:1px;*/ 
+    background-color: #e8e8e8;
+    font-color: #000;
+    /*border:1px;*/
 }
 
 /* 16x9 Aspect Ratio */
@@ -1187,7 +1189,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 .button {
     display: block;
     width: 100%;
-    height: 40px;
+    height: 10%;
     background: #4E9CAF;
     padding: 10px;
     text-align: center;
