@@ -13,11 +13,11 @@
     <meta name="author" content="aspxtemplates">
     <title>SENSEMAKE - Your Concerns</title>
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css?v=1" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="css/the-big-picture.css" rel="stylesheet">
+    <link href="css/the-big-picture.css?v=1" rel="stylesheet">
     <link href="css/font-icon.css" rel="stylesheet" type="text/css" />
-    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css?v=1" rel="stylesheet" type="text/css" />
     <link href="css/responsive.css" rel="stylesheet" type="text/css" />
     <!-- ============ Google fonts ============ -->
     <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet'

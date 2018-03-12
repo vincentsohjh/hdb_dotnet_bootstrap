@@ -11,13 +11,13 @@
     <meta name="author" content="Srikanth"/>
     <title>SENSEMAKE - Feedback Findings</title>
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet"/>
+    <link href="css/bootstrap.css?v=1" rel="stylesheet"/>
     <!-- Custom CSS -->
-    <link href="css/the-big-picture.css" rel="stylesheet"/>
+    <link href="css/the-big-picture.css?v=1" rel="stylesheet"/>
     <link href="css/font-icon.css" rel="stylesheet" type="text/css" />
     <link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css" />
     <link href="css/flexslider.css" rel="stylesheet" type="text/css" />
-    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css?v=1" rel="stylesheet" type="text/css" />
     <link href="css/responsive.css" rel="stylesheet" type="text/css" />
     <link href="css/animate.min.css" rel="stylesheet" type="text/css" />
     <!-- ============ Google fonts ============ -->
@@ -40,7 +40,7 @@
     <!-- Section: top nav -->
 
     <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
-        <div class="container">
+        <div class="container" >
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">SenseMake</a>
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder">
@@ -65,7 +65,7 @@
     <!-- Section: answer -->
     <section id="contact" class="text-center">
         <h2>Here's our findings</h2>
-    <div class="container">
+    <div class="container2">
     <div class="row">
         <div class="col-lg-8 col-md-offset-2">
             <div class="form-wrapper marginbot-50">
@@ -79,36 +79,43 @@
                             <asp:TextBox ID="txt_concerns" runat="server" class="form-control" Height="100px" TextMode="MultiLine" ReadOnly="true" ForeColor="Black"></asp:TextBox>
  
                             <br/>
+
+
                             
-                            <div style="width: 100%; height:80px; margin-bottom: 5%;">                            
-                                <div style="float:left; width: 45%;">
-                                    <div style="height: 35px;"><p class="lead">The resident's concern is about</p></div>
-                                    <asp:TextBox ID="txt_answer1" runat="server" class="form-control" ReadOnly="true" ForeColor="Black"></asp:TextBox>
+                            <div class="form_div">                            
+                                <div style="float:left; width:100%;">
+                                    <div class="form_heading" style="float:left;"><p class="lead">The resident's concern is about</p></div>
+                                    <div class="form_heading" style="float:right;"><p class="lead">You can refer them to </div>
                                 </div>    
 
-                                <div style="float:right; width: 45%;">
-                                    <div style="height: 35px;"><p class="lead">You can refer them to </div>
-                                    <asp:TextBox ID="txt_answer2" runat="server" class="form-control" ReadOnly="true" ForeColor="Black"></asp:TextBox>
+                                <div style="float:left; width:100%;">                           
+                                    <asp:TextBox ID="txt_answer1" runat="server" class="form-control" ReadOnly="true" ForeColor="Black" TextMode="MultiLine" style="float:left; width: 48%;"></asp:TextBox>
+                                    <asp:TextBox ID="txt_answer2" runat="server" class="form-control" ReadOnly="true" ForeColor="Black" TextMode="MultiLine" style="float:right; width: 48%;" ></asp:TextBox>
                                 </div>    
                             </div>
 
-                           
-                            <div style="width: 100%; height:100px; margin-bottom: 5%; margin-right: 5%;">
-                                <div style="float:left; width: 45%;">
-                                    <div style="height: 35px;"><p class="lead">Can it be solved?</p></div>
-                                    <asp:TextBox ID="txt_answer3" runat="server" class="form-control" ReadOnly="true" ForeColor="Black"></asp:TextBox>
-                                </div>
+                            <br/>
 
-                                <div style="float:right; width: 45%;">
-                                    <div style="height: 35px;"><p class="lead">Your proposed response may be</p></div>
-                                    <asp:TextBox ID="txt_answer4" runat="server" class="form-control" ReadOnly="true" ForeColor="Black"></asp:TextBox>
-                                </div>
+
+                            <div class="form_div">                            
+                                <div style="float:left; width:100%;">
+                                    <div class="form_heading" style="float:left;"><p class="lead">Can it be solved?</p></div>
+                                    <div class="form_heading" style="float:right;"><p class="lead">Your proposed response may be </div>
+                                </div>    
+
+                                <div style="float:left; width:100%;">                           
+                                    <asp:TextBox ID="txt_answer3" runat="server" class="form-control" ReadOnly="true" ForeColor="Black" TextMode="MultiLine" style="float:left; width: 48%; min-height:80px; "></asp:TextBox>
+                                    <asp:TextBox ID="txt_answer4" runat="server" class="form-control" ReadOnly="true" ForeColor="Black" TextMode="MultiLine" style="float:right; width: 48%; min-height:80px; " ></asp:TextBox>
+                                </div>    
                             </div>
 
+                            <br/>
+
+                            
                                                      
-                            <div style="width: 100%; height:25%; margin-top: 5%;">
+                            <div style="width: 100%; float:left; margin-bottom:3%">
                                 <div style="margin-top: 5%;">
-                                    <div style="height: 35px;"><p class="lead">Some of the past relevant cases are</p></div>
+                                    <div class="form_heading" style="float:left; width:100%"><p class="lead">Some of the past relevant cases are</p></div>
                                     <asp:TextBox ID="txt_answer5" runat="server" class="form-control" ReadOnly="true" ForeColor="Black" TextMode="MultiLine" Height="100px"></asp:TextBox>
                                 </div>
                             </div>

@@ -206,10 +206,26 @@ textarea.form-control:focus {
   border: 1px solid #FFF;
   border-radius: 4px;
 }
+
+.form-control2 {
+    display: block;
+    min-height: 45px;
+    height: 500px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #1f2021;
+    background-color: #d4f5f7;
+    border: 1px solid #7b7c7c;
+    border-radius: 4px;
+}
+
+
 .form-control {
   display: block;
   width: 100%;
-  height: 45px;
+  min-height: 45px;
+  height: 100%;
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
@@ -231,12 +247,53 @@ textarea.form-control:focus {
   color: #888888;
   text-align: left;
   padding: 20px;
- 
+}
+
+.container2 form {
+    background-color: #d4f5f7;
+    color: #888888;
+    text-align: left;
+    padding: 10px;
 }
 
 .container label {
   display: none;
 }
+
+
+.form_div {
+    width: 100%;
+    min-height: 50px;
+    max-height: 250px;
+    height: 100%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    float: left;
+}
+
+
+.form_heading{
+    min-height: 35px;
+    max-height: 80px;
+    height: 100%;
+    width:48%;
+}
+
+
+.container2 input, .container2 textarea {
+    /* to create space for placing icon*/
+    padding-left: 2%;
+    padding-right:2%;
+    border-color: 1px solid rgba(0,0,0,1);
+    background-color: rgba(191, 251, 255,0.6);
+    border-radius: 5px;
+    color: #1b1c1c;
+    overflow:visible;
+    resize:none;
+    
+}
+
+
 
 .container input, .container textarea
 {
