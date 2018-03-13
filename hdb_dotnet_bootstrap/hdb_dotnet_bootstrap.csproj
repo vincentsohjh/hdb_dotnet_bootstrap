@@ -186,6 +186,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="img\alphareach-01.png" />
     <Content Include="img\banner.jpg" />
     <Content Include="img\bg-overlay.png" />
     <Content Include="img\blank.gif" />
