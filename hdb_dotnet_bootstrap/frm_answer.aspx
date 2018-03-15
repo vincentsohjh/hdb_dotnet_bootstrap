@@ -42,7 +42,7 @@
     <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation" style="border: 0; padding: 0; height:65px;">
         <div class="container" style="border: 0; padding: 0">
             <div class="navbar-header" style="border: 0; padding: 0">
-                <a class="navbar-brand" href="#"><img src="img/alphareach-01.png" border="0" padding=0 height="180%"/></a>
+                <a class="navbar-brand" href="#"><img src="img/alfasense-01.png" border="0" padding=0 height="200%"/></a>
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder">
                     <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
                         class="icon-bar"></span><span class="icon-bar"></span>
